@@ -2,67 +2,109 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://example.com/images/halibut.png</loc>
-    <lastmod>2016-04-23</lastmod>
+    <lastmod>2016-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://example.com/images/whitetuna.png</loc>
-    <lastmod>2016-04-23</lastmod>
+    <lastmod>2016-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://example.com/images/pacificcod.png</loc>
-    <lastmod>2016-04-23</lastmod>
+    <lastmod>2016-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://example.com/images/lrgflakes.png</loc>
-    <lastmod>2016-04-23</lastmod>
+    <lastmod>2016-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://example.com/images/medflakes.png</loc>
-    <lastmod>2016-04-23</lastmod>
+    <lastmod>2016-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://example.com/images/smallflakes.png</loc>
-    <lastmod>2016-04-23</lastmod>
+    <lastmod>2016-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://example.com/images/fleshcolor4_4.png</loc>
-    <lastmod>2016-04-23</lastmod>
+    <lastmod>2016-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://example.com/images/fleshcolor3_4.png</loc>
-    <lastmod>2016-04-23</lastmod>
+    <lastmod>2016-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://example.com/images/fleshcolor2_4.png</loc>
-    <lastmod>2016-04-23</lastmod>
+    <lastmod>2016-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://example.com/images/fleshcolor1_4.png</loc>
-    <lastmod>2016-04-23</lastmod>
+    <lastmod>2016-04-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.com/images/opaque1_4.png</loc>
+    <lastmod>2016-04-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.com/images/opaque2_4.png</loc>
+    <lastmod>2016-04-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.com/images/opaque3_4.png</loc>
+    <lastmod>2016-04-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.com/images/opaque4_4.png</loc>
+    <lastmod>2016-04-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.com/images/taste_escolar.png</loc>
+    <lastmod>2016-04-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.com/images/taste_albacore.png</loc>
+    <lastmod>2016-04-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.com/images/resultspg.png</loc>
+    <lastmod>2016-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://example.com/index.html</loc>
-    <lastmod>2016-04-23</lastmod>
+    <lastmod>2016-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

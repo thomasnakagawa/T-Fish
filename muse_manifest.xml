@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="example.com" resolutions="1x" timestamp="1461468750451">
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="example.com" resolutions="1x" timestamp="1461486091194">
   <folder name="images">
     <file name="firstpage.png" crc="129413524" ref="index"/>
     <file name="halibut.png" crc="4237688805" seo="true" ref="index"/>
@@ -11,10 +11,17 @@
     <file name="fleshcolor3_4.png" crc="102039777" seo="true" ref="index"/>
     <file name="fleshcolor2_4.png" crc="3856691524" seo="true" ref="index"/>
     <file name="fleshcolor1_4.png" crc="212332061" seo="true" ref="index"/>
+    <file name="opaque1_4.png" crc="4059011779" seo="true" ref="index"/>
+    <file name="opaque2_4.png" crc="202290150" seo="true" ref="index"/>
+    <file name="opaque3_4.png" crc="4140946330" seo="true" ref="index"/>
+    <file name="opaque4_4.png" crc="4252977634" seo="true" ref="index"/>
+    <file name="taste_escolar.png" crc="3857724067" seo="true" ref="index"/>
+    <file name="taste_albacore.png" crc="4011218587" seo="true" ref="index"/>
+    <file name="resultspg.png" crc="4019418636" seo="true" ref="index"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
-    <file name="index.css" crc="154843511" ref="index"/>
+    <file name="index.css" crc="313633560" ref="index"/>
     <file name="question1.css" crc="4276419396" ref="question1"/>
   </folder>
   <folder name="scripts">
@@ -24,6 +31,6 @@
     <file name="jquery.scrolleffects.js" crc="3860644955" ref="index"/>
     <file name="pie.js" crc="3827607177" ref="question1"/>
   </folder>
-  <file name="index.html" crc="432710361" seo="true" mt="1461468724371" redirect="true"/>
+  <file name="index.html" crc="4222949827" seo="true" mt="1461486082624" redirect="true"/>
   <file name="question1.html" crc="530120894" seo="true" mt="1461453552487" redirect="true"/>
 </manifest>
