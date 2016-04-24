@@ -3,7 +3,7 @@
  <head>
 
   <script type="text/javascript">
-   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.watch.js", "index.css"], "outOfDate":[]};
+   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.scrolleffects.js", "jquery.watch.js", "index.css"], "outOfDate":[]};
 </script>
   
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
@@ -11,16 +11,50 @@
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?4052507572"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?112180619" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?4064359935" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    document.documentElement.className += ' js';
+var __adobewebfontsappname__ = "muse";
+</script>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/montserrat:n4:default.js" type="text/javascript">\x3C/script>');
 </script>
    </head>
  <body>
 
-  <div class="clearfix" id="page"><!-- column -->
-   <div class="verticalspacer"></div>
+  <div class="grow clearfix" id="page"><!-- column -->
+   <div class="position_content" id="page_position_content">
+    <a class="anchor_item colelem" id="begin"></a>
+    <div class="clearfix colelem" id="u286-10"><!-- content -->
+     <p>Remember:&nbsp; put this in the css</p>
+     <p>&nbsp;</p>
+     <p>body{overflow: hidden;}</p>
+     <p>&nbsp;</p>
+     <p>http://stackoverflow.com/questions/6554245/need-to-prevent-user-from-manually-scrolling-a-web-page-only-navigate-using-in</p>
+    </div>
+    <a class="nonblock nontext anim_swing clip_frame mse_pre_init" id="u369" href="index.html#begin"><!-- image --><img class="block" id="u369_img" src="images/halibut.png" alt="" width="226" height="177"/></a>
+    <a class="nonblock nontext anim_swing clip_frame mse_pre_init" id="u358" href="index.html#start"><!-- image --><img class="block" id="u358_img" src="images/whitetuna.png" alt="" width="180" height="161"/></a>
+    <a class="nonblock nontext anim_swing clip_frame mse_pre_init" id="u375" href="index.html#begin"><!-- image --><img class="block" id="u375_img" src="images/pacificcod.png" alt="" width="186" height="158"/></a>
+    <div class="colelem" id="u307"><!-- custom html -->
+     
+            
+</div>
+    <div class="clearfix colelem" id="u306-7"><!-- content -->
+     <p>1/5</p>
+     <p>&nbsp;</p>
+     <p>What is the color of the skin?</p>
+    </div>
+    <div class="Button rounded-corners clearfix colelem" id="buttonu282"><!-- container box -->
+     <div class="rounded-corners grpelem" id="u284"><!-- simple frame --></div>
+     <div class="clearfix grpelem" id="u283-4"><!-- content -->
+      <p>Lorem Ipsum</p>
+     </div>
+    </div>
+    <div class="verticalspacer"></div>
+    <a class="anchor_item colelem" id="start"></a>
+   </div>
   </div>
   <!-- JS includes -->
   <script type="text/javascript">
@@ -30,6 +64,7 @@
    window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
 </script>
   <script src="scripts/museutils.js?183364071" type="text/javascript"></script>
+  <script src="scripts/jquery.scrolleffects.js?3860644955" type="text/javascript"></script>
   <script src="scripts/jquery.watch.js?71412426" type="text/javascript"></script>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -39,10 +74,78 @@ for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.re
 typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
+$('#u369').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,0]},{"speed":[0,1.2],"in":[0,Infinity]}]);/* scroll effect */
+$('#u358').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,0]},{"speed":[0,1.2],"in":[0,Infinity]}]);/* scroll effect */
+$('#u375').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,0]},{"speed":[0,1.2],"in":[0,Infinity]}]);/* scroll effect */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 } catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});
 </script>
+  
+  <!--HTML Widget code-->
+  
+<script type="text/javascript">
+Muse.Utils.processHyperlink = function(a) {
+    var b = a.href,
+        c = $(window),
+        a = $(a),
+        d = a.attr("target");
+    if (!d || d == "_self") {
+        var f = b.lastIndexOf("/"),
+            d = b.lastIndexOf("#"),
+            h = a.attr("class").match(/anim_(\w+)/);
+        if (h && d > f) {
+            var a = c.data("scrollWrapper"),
+                j = b.substring(d),
+                d = $(j).offset(),
+                b = h[1],
+                g = a || window,
+                f = document.documentElement || document.body,
+                h = (a ? a.scrollHeight() : f.scrollHeight) - c.height(),
+                c = (a ? a.scrollWidth() : f.scrollWidth) - c.width(),
+                k = Math.min(h, d.top + (a && !a.isStandard() ? a.scrollTop() : 0)),
+                i = Math.min(c, d.left +
+                    (a && !a.isStandard() ? a.scrollLeft() : 0)),
+                c = function() {
+                    g.scrollTo(i, k);
+                    try {
+                        history.replaceState({})
+                    } catch (a) {
+                        if (!jQuery.browser.msie || jQuery.browser.version > 7) window.location.hash = j
+                    }
+                };
+            try {
+                history.pushState({}, null, j)
+            } catch (m) {}
+            if (window.scrollTo || void 0 !== a) {
+                var a = a || $(document),
+                    l = a.scrollLeft(),
+                    p = a.scrollTop(),
+                    q = l,
+                    o = p;
+                $({
+                    scrollDistance: 0
+                }).animate({
+                    scrollDistance: 1
+                }, {
+                    duration: 0.5E3,
+                    easing: b,
+                    step: function(a) {
+                        a != 0 && (o = a * (k - p), q = a * (i - l), g.scrollTo(l + q, p + o))
+                    },
+                    complete: c
+                })
+            } else $("html,body").animate({
+                scrollTop: k,
+                scrollLeft: i
+            }, 1E3, b, c);
+            return !1
+        }
+    }(c = Muse.Utils.urlParam(b, "devicelock")) && Muse.Utils.createCookie("devicelock", c, 0);
+    return !0
+};
+</script>
+
    </body>
 </html>

@@ -1,14 +1,22 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="example.com" resolutions="1x" timestamp="1461436685130">
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="example.com" resolutions="1x" timestamp="1461457782502">
+  <folder name="images">
+    <file name="firstpage.png" crc="129413524" ref="index"/>
+    <file name="halibut.png" crc="4237688805" seo="true" ref="index"/>
+    <file name="whitetuna.png" crc="358073879" seo="true" ref="index"/>
+    <file name="pacificcod.png" crc="445125109" seo="true" ref="index"/>
+  </folder>
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
-    <file name="index.css" crc="112180619" ref="index"/>
-    <file name="question1.css" crc="3909854014" ref="question1"/>
+    <file name="index.css" crc="4064359935" ref="index"/>
+    <file name="question1.css" crc="4276419396" ref="question1"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="4255413929" ref="index:question1"/>
     <file name="museutils.js" crc="183364071" ref="index:question1"/>
     <file name="jquery.watch.js" crc="71412426" ref="index:question1"/>
+    <file name="jquery.scrolleffects.js" crc="3860644955" ref="index"/>
+    <file name="pie.js" crc="3827607177" ref="index:question1"/>
   </folder>
-  <file name="index.html" crc="235786425" seo="true" mt="1461436288164" redirect="false"/>
-  <file name="question1.html" crc="282341535" seo="true" mt="1461436443091" redirect="true"/>
+  <file name="index.html" crc="39523876" seo="true" mt="1461457449074" redirect="true"/>
+  <file name="question1.html" crc="530120894" seo="true" mt="1461453552487" redirect="true"/>
 </manifest>
